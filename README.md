@@ -5,4 +5,6 @@ android开发中往往由于apk包过大，需要删除一些多余的资源文�
 
 这个python代码，可以用命令，帮助我们一次性删除所有的**unuse resource**。
 
+```
 sudo python ./autoclean_resource.py -i ./lint-results.xml  -e ./excep.xml
+```
